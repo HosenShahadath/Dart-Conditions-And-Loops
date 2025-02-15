@@ -6,7 +6,7 @@ class MarkException implements Exception{
 
 void main(){
   try{
-    checkMarks(-20);
+    checkMarks(-10);
   } catch(ex){
     print(ex.toString());
   }
